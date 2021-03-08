@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.get('/', (req, res) => res.json('API Running'));
+app.get('/', (req, res) => res.json('API Running [v1]'));
 
 const PORT = process.env.PORT || 5000;
 
